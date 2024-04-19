@@ -1,11 +1,14 @@
 {
   "expo": {
-    "name": "aftaai",
+    "name": "AFTAAI",
     "slug": "aftaai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -19,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f9fafb"
-      }
+      },
+      "package": "com.bftai.aftaai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b91c9d48-286b-4301-87e5-1ce240d3ced6"
+      }
+    },
+    "owner": "bftai"
   }
 }
